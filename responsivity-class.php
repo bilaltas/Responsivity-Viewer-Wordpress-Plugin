@@ -28,6 +28,10 @@ class ResponsivityViewer {
 
 	function frontend_functions() {
 
+		// Responsivity Page
+		add_filter( 'page_template', array($this, 'template') );
+
+
 		// If site is in Responsivity Tool frames
 		if ( isset($_GET['responsivity_frame']) && $_GET['responsivity_frame'] ) {
 
@@ -61,6 +65,15 @@ class ResponsivityViewer {
 
 		});
 
+	}
+
+	function template($page_template) {
+
+	    if ( is_page( 'responsivity' ) ) {
+	        $page_template = dirname( __FILE__ ) . '/viewer/index.php';
+	    }
+
+	    return $page_template;
 	}
 
 	function backend_functions() {

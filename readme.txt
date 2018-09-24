@@ -8,7 +8,7 @@ Stable tag: trunk
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
-The best and easiest plugin to restrict admin menu items.
+A tool that allows to make responsivity arrangements easier for web projects.
 
 == Description ==
 A tool that allows to make responsivity arrangements easier for web projects. You can also send a link to your clients to show them how their websites look on specific devices or some custom screen sizes.
@@ -37,6 +37,12 @@ A tool that allows to make responsivity arrangements easier for web projects. Yo
 3. Full Height Mode
 
 == Changelog ==
+= 0.0.4 (2018-09-24 16:31 EET) =
+* Ability to access from site.com/responsivity/
+
+= 0.0.3 (2018-09-18 17:24 EET) =
+* Description updated.
+
 = 0.0.2 (2018-09-12 16:34 EET) =
 * Icon and banner updated for WP repo.
 

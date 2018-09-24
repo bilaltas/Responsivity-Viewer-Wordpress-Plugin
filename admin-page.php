@@ -12,7 +12,14 @@ $responsivity = new ResponsivityTool();
     <h1><?php echo esc_html( get_admin_page_title() ); ?></h1>
 
 
-    <?php $responsivity->print_form(plugin_dir_url( __FILE__ )."viewer/", "_blank"); ?><br/>
+    <?php
+
+	$tool_url = plugin_dir_url( __FILE__ )."viewer/";
+	if ( get_page_by_path( 'responsivity' ) ) $tool_url = home_url("responsivity");
+
+	$responsivity->print_form($tool_url, "_blank");
+
+	?><br/>
 
 
     <h2>Access</h2>
