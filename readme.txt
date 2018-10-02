@@ -37,6 +37,9 @@ A tool that allows to make responsivity arrangements easier for web projects. Yo
 3. Full Height Mode
 
 == Changelog ==
+= 0.0.5 (2018-10-03 00:05 EET) =
+* Email the link button added.
+
 = 0.0.4 (2018-09-24 16:31 EET) =
 * Ability to access from site.com/responsivity/
 
