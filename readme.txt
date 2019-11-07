@@ -3,7 +3,7 @@ Contributors: bilaltas
 Tags: responsivity, responsivity viewer, responsivity tool, mobile, mobile friendly, mobile view
 Donate link: https://paypal.me/bilaltas
 Requires at least: 4.0
-Tested up to: 4.9.8
+Tested up to: 5.3
 Stable tag: trunk
 License: MIT
 License URI: https://opensource.org/licenses/MIT
@@ -37,6 +37,9 @@ A tool that allows to make responsivity arrangements easier for web projects. Yo
 3. Full Height Mode
 
 == Changelog ==
+= 0.0.6 (2019-11-07 13:16 EET) =
+* Tested on Wordpress 5.3
+
 = 0.0.5 (2018-10-03 00:05 EET) =
 * Email the link button added.
 

@@ -7,9 +7,9 @@ Author: Bilal TAS
 Author URI: https://www.bilaltas.net
 License: MIT
 License URI: https://opensource.org/licenses/MIT
-Version: 0.0.5
+Version: 0.0.6
 
-Copyright (c) 2018 Responsivity Viewer
+Copyright (c) 2019 Responsivity Viewer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
